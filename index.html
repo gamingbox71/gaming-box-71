@@ -1,27 +1,161 @@
-<section style="background:#111;padding:30px;margin-top:30px;">
-  <h2 style="text-align:center;color:#00e5ff;">📞 Contact Us</h2>
-  <p style="text-align:center;">Email: gamingbox71@gmail.com</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <h2 style="text-align:center;color:#00e5ff;">👨 About Us</h2>
-  <p style="text-align:center;">
-    Welcome to GAMING BOX 71. Here you will find the latest Android games, APKs and gaming news.
-  </p>
+<title>GAMING BOX 71</title>
 
-  <h2 style="text-align:center;color:#00e5ff;">🔒 Privacy Policy</h2>
-  <p style="text-align:center;">
-    We respect your privacy and do not collect unnecessary personal information.
-  </p>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
-  <h2 style="text-align:center;color:#00e5ff;">⚠️ DMCA</h2>
-  <p style="text-align:center;">
-    If you own any content and want it removed, please contact us.
-  </p>
+body{
+background:#0d0d0d;
+color:white;
+}
+
+header{
+background:#111;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+border-bottom:2px solid cyan;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00e5ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-size:15px;
+}
+
+nav a:hover{
+color:#00e5ff;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(135deg,#111,#1b1b1b,#000);
+}
+
+.hero h1{
+font-size:40px;
+color:#00e5ff;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+color:#ccc;
+margin-bottom:25px;
+}
+
+.hero button{
+padding:12px 25px;
+border:none;
+border-radius:8px;
+background:#00e5ff;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#00b8cc;
+}
+
+.search{
+text-align:center;
+padding:25px;
+}
+
+.search input{
+width:90%;
+max-width:500px;
+padding:12px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+padding:20px;
+}
+
+.menu button{
+padding:15px;
+background:#1b1b1b;
+color:white;
+border:1px solid cyan;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+}
+
+.menu button:hover{
+background:#00e5ff;
+color:black;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">🎮 GAMING BOX 71</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Games</a>
+<a href="#">APK</a>
+<a href="#">Videos</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>WELCOME TO GAMING BOX 71</h1>
+
+<p>Your Ultimate Gaming Hub</p>
+
+<button>Explore Games</button>
+
 </section>
 
-<button onclick="window.scrollTo({top:0,behavior:'smooth'})"
-style="position:fixed;bottom:20px;right:20px;padding:12px;border:none;border-radius:50%;background:#00e5ff;font-size:20px;cursor:pointer;">
-⬆️
-</button>
+<div class="search">
 
-</body>
-</html>
+<input type="text" placeholder="🔍 Search Games...">
+
+</div>
+
+<div class="menu">
+
+<button>🎮 Games</button>
+
+<button>📦 APK Download</button>
+
+<button>🎥 Videos</button>
+
+<button>📞 Contact</button>
+
+</div>
